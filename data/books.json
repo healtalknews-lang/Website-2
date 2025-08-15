@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "oral-anatomy-basics",
+    "title": "Oral Anatomy Basics",
+    "author": "smith",
+    "tags": ["anatomy"],
+    "excerpt": "An introduction to oral anatomy."
+  },
+  {
+    "slug": "dental-radiology",
+    "title": "Dental Radiology Essentials",
+    "author": "jones",
+    "tags": ["radiology"],
+    "excerpt": "Principles of dental imaging."
+  },
+  {
+    "slug": "modern-periodontal-therapy",
+    "title": "Modern Periodontal Therapy",
+    "author": "lee",
+    "tags": ["periodontology"],
+    "excerpt": "Treatment approaches for periodontal disease."
+  },
+  {
+    "slug": "prosthodontics-guide",
+    "title": "Prosthodontics Guide",
+    "author": "patel",
+    "tags": ["prosthodontics"],
+    "excerpt": "Comprehensive prosthodontics techniques."
+  },
+  {
+    "slug": "endodontic-techniques",
+    "title": "Endodontic Techniques",
+    "author": "smith",
+    "tags": ["endodontics"],
+    "excerpt": "Step-by-step root canal procedures."
+  },
+  {
+    "slug": "dental-materials",
+    "title": "Dental Materials Science",
+    "author": "jones",
+    "tags": ["materials"],
+    "excerpt": "Exploring materials used in dentistry."
+  }
+]

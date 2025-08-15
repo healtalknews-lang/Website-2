@@ -1,0 +1,10 @@
+[
+  {"type":"book","title":"Oral Anatomy Basics","slug":"oral-anatomy-basics","tags":["anatomy"],"excerpt":"An introduction to oral anatomy."},
+  {"type":"book","title":"Dental Radiology Essentials","slug":"dental-radiology","tags":["radiology"],"excerpt":"Principles of dental imaging."},
+  {"type":"book","title":"Modern Periodontal Therapy","slug":"modern-periodontal-therapy","tags":["periodontology"],"excerpt":"Treatment approaches for periodontal disease."},
+  {"type":"book","title":"Prosthodontics Guide","slug":"prosthodontics-guide","tags":["prosthodontics"],"excerpt":"Comprehensive prosthodontics techniques."},
+  {"type":"book","title":"Endodontic Techniques","slug":"endodontic-techniques","tags":["endodontics"],"excerpt":"Step-by-step root canal procedures."},
+  {"type":"book","title":"Dental Materials Science","slug":"dental-materials","tags":["materials"],"excerpt":"Exploring materials used in dentistry."},
+  {"type":"page","title":"About Updent","slug":"about","tags":["about"],"excerpt":"Updent Publication is dedicated to advancing dental knowledge through high-quality publications. Founded by dental professionals, Updent has been serving the dental community since 1990."},
+  {"type":"page","title":"Publishing Services","slug":"services","tags":["services"],"excerpt":"Editing Developmental Editing We refine manuscripts for clarity and structure. Copy Editing Our team ensures accuracy and consistency. Design We provide layout and cover design tailored to dental topics. Distribution Our network delivers your books to dental professionals worldwide."}
+]

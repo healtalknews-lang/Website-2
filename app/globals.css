@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-paper text-ink dark:bg-ink dark:text-paper;
+}
+
+body {
+  @apply font-inter;
+  background-image: url('/textures/paper.png'), url('/textures/noise.png');
+  background-size: 100% 100%, 256px 256px;
+  background-repeat: repeat;
+}
+
+.skip-link {
+  @apply sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 bg-garnet text-white p-2 rounded-2xl;
+}
+
+@layer components {
+  .prose {
+    @apply text-current;
+    font-variant-ligatures: discretionary-ligatures;
+    font-optical-sizing: auto;
+  }
+  .prose h2 {
+    font-variant: small-caps;
+  }
+  .prose blockquote {
+    @apply border-l-4 border-line dark:border-line/50 pl-4 italic text-lg;
+  }
+  .prose figcaption {
+    @apply text-sm text-charcoal/70 dark:text-line mt-2 text-center;
+  }
+  .prose p:first-of-type::first-letter {
+    @apply float-left mr-2 text-5xl font-playfair text-garnet;
+  }
+}
+
+.book-card {
+  @apply relative bg-paper dark:bg-ink border border-line/60 rounded-2xl shadow-card p-4 transition-transform transform-gpu will-change-transform;
+}
+.book-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #F8F5EF;
+  border-left: 20px solid transparent;
+  transition: border-top-color 150ms;
+}
+.book-card:hover::after {
+  border-top-color: #E7E1D6;
+}
+[data-theme='dark'] .book-card::after {
+  border-top-color: #111418;
+}
+[data-theme='dark'] .book-card:hover::after {
+  border-top-color: #333333;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .book-card:hover {
+    transform: perspective(600px) rotateX(1deg) rotateY(-2deg) translateY(-0.25rem);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .motion-safe\:animate-fade-slide {
+    animation: none !important;
+  }
+}
