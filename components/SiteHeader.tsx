@@ -34,7 +34,7 @@ export default function SiteHeader() {
         {nav.map((n) => (
           <Link
             key={n.href}
-            href={n.href}
+            href={`${n.href}/`}
             className={`px-2 py-1 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-garnet ${pathname === n.href ? 'text-garnet dark:text-garnet font-semibold' : 'hover:text-garnet'}`}
           >
             {n.label}

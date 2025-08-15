@@ -8,7 +8,7 @@ export default function HomePage() {
         Updent Publication offers leading dental literature for professionals and students alike.
       </p>
       <Link
-        href="/books"
+        href="/books/"
         className="inline-block bg-garnet text-paper px-6 py-3 rounded-2xl shadow-card hover:shadow-paper transition focus:outline-none focus-visible:ring-2 focus-visible:ring-garnet"
       >
         Browse our books

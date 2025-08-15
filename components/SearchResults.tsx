@@ -8,7 +8,7 @@ export default function SearchResults({ results }: { results: any[] }) {
       {results.map((r) => (
         <li key={r.slug} className="p-4 bg-white shadow rounded">
           <h3 className="font-playfair text-xl">
-            <Link href={r.type === 'book' ? `/books/${r.slug}` : `/${r.slug}`}>
+            <Link href={r.type === 'book' ? `/books/${r.slug}/` : `/${r.slug}/`}>
               {r.title}
             </Link>
           </h3>

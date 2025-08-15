@@ -5,7 +5,7 @@ import Badge from './Badge';
 export default function BookCard({ book }: { book: any }) {
   return (
     <Link
-      href={`/books/${book.slug}`}
+      href={`/books/${book.slug}/`}
       className="book-card block focus:outline-none focus-visible:ring-2 focus-visible:ring-garnet"
     >
       {book.cover && (

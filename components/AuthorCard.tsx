@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function AuthorCard({ author }: { author: any }) {
   return (
     <Link
-      href={`/authors/${author.slug}`}
+      href={`/authors/${author.slug}/`}
       className="block rounded-2xl p-6 bg-gradient-to-br from-paper to-paper/60 dark:from-ink dark:to-ink/80 shadow-card transition-transform transform-gpu motion-safe:hover:-translate-y-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-garnet"
     >
       {author.image && (

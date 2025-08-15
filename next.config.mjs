@@ -11,7 +11,9 @@ const withMDX = createMDX({
 
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'mdx'],
-  experimental: { appDir: true }
+  output: 'export',
+  images: { unoptimized: true },
+  trailingSlash: true
 };
 
 export default withMDX(nextConfig);
