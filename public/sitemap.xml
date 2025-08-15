@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/books/</loc></url>
+  <url><loc>https://example.com/books/oral-anatomy-basics/</loc></url>
+  <url><loc>https://example.com/books/dental-radiology/</loc></url>
+  <url><loc>https://example.com/books/modern-periodontal-therapy/</loc></url>
+  <url><loc>https://example.com/books/prosthodontics-guide/</loc></url>
+  <url><loc>https://example.com/books/endodontic-techniques/</loc></url>
+  <url><loc>https://example.com/books/dental-materials/</loc></url>
+  <url><loc>https://example.com/authors/</loc></url>
+  <url><loc>https://example.com/authors/smith/</loc></url>
+  <url><loc>https://example.com/authors/jones/</loc></url>
+  <url><loc>https://example.com/authors/lee/</loc></url>
+  <url><loc>https://example.com/authors/patel/</loc></url>
+  <url><loc>https://example.com/services/</loc></url>
+  <url><loc>https://example.com/about/</loc></url>
+  <url><loc>https://example.com/contact/</loc></url>
+  <url><loc>https://example.com/search/</loc></url>
+</urlset>

@@ -1,0 +1,36 @@
+{
+  "name": "updent-publication",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/build-search.js",
+    "dev": "next dev",
+    "prebuild": "node scripts/build-search.js",
+    "build": "next build",
+    "start": "next start",
+    "export": "node scripts/build-search.js && next build && next export"
+  },
+  "dependencies": {
+    "flexsearch": "^0.7.31",
+    "gray-matter": "^4.0.3",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remark": "^14.0.2",
+    "slugify": "^1.6.6",
+    "strip-markdown": "^5.1.0",
+    "rehype-slug": "^6.1.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.5",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "@next/mdx": "13.5.6",
+    "@tailwindcss/typography": "0.5.9"
+  }
+}

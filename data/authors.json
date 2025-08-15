@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "smith",
+    "name": "Dr. Alice Smith",
+    "bio": "Expert in oral anatomy and endodontics.",
+    "image": null
+  },
+  {
+    "slug": "jones",
+    "name": "Dr. Brian Jones",
+    "bio": "Radiology specialist and materials researcher.",
+    "image": null
+  },
+  {
+    "slug": "lee",
+    "name": "Dr. Carla Lee",
+    "bio": "Periodontology clinician and lecturer.",
+    "image": null
+  },
+  {
+    "slug": "patel",
+    "name": "Dr. Deepak Patel",
+    "bio": "Prosthodontics authority with decades of experience.",
+    "image": null
+  }
+]
